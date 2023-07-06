@@ -1,5 +1,5 @@
 
-package controller;
+package dcc025.controleestoque.controller;
 
 //Gabriela Singulani Marques
 
@@ -17,7 +17,7 @@ public class GerenciaProdutos implements WindowListener{
     
     @Override
     public void windowOpened(WindowEvent e) {
-        
+        tela.carregaProdutos();
     }
 
     @Override
